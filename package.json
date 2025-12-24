@@ -1,0 +1,19 @@
+{
+  "name": "nazariya",
+  "version": "1.0.0",
+  "description": "A blog application's backend that let you express your nazariya",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nazariya",
+    "blog",
+    "backend"
+  ],
+  "author": "Keshav Chauhan",
+  "license": "ISC",
+  "dependencies": {
+    "handle-backbone": "^1.0.0"
+  }
+}
