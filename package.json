@@ -4,6 +4,7 @@
   "description": "A blog application's backend that let you express your nazariya",
   "main": "index.js",
   "scripts": {
+    "dev": "node --env-file .\\.env index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,6 +15,11 @@
   "author": "Keshav Chauhan",
   "license": "ISC",
   "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
     "handle-backbone": "^1.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.4"
   }
 }
